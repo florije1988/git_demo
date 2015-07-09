@@ -14,7 +14,6 @@
 		47F52D8C1B4DFC6600D8A845 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 47F52D8B1B4DFC6600D8A845 /* Images.xcassets */; };
 		47F52D8F1B4DFC6600D8A845 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 47F52D8D1B4DFC6600D8A845 /* LaunchScreen.xib */; };
 		47F52D9B1B4DFC6600D8A845 /* git_demoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F52D9A1B4DFC6600D8A845 /* git_demoTests.swift */; };
-		47F52DA51B4DFCDC00D8A845 /* nothing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47F52DA41B4DFCDC00D8A845 /* nothing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +38,6 @@
 		47F52D941B4DFC6600D8A845 /* git_demoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = git_demoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		47F52D991B4DFC6600D8A845 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		47F52D9A1B4DFC6600D8A845 /* git_demoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = git_demoTests.swift; sourceTree = "<group>"; };
-		47F52DA41B4DFCDC00D8A845 /* nothing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = nothing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +86,6 @@
 				47F52D8D1B4DFC6600D8A845 /* LaunchScreen.xib */,
 				47F52D831B4DFC6600D8A845 /* git_demo.xcdatamodeld */,
 				47F52D7F1B4DFC6600D8A845 /* Supporting Files */,
-				47F52DA41B4DFCDC00D8A845 /* nothing.swift */,
 			);
 			path = git_demo;
 			sourceTree = "<group>";
@@ -221,7 +218,6 @@
 				47F52D871B4DFC6600D8A845 /* ViewController.swift in Sources */,
 				47F52D821B4DFC6600D8A845 /* AppDelegate.swift in Sources */,
 				47F52D851B4DFC6600D8A845 /* git_demo.xcdatamodeld in Sources */,
-				47F52DA51B4DFCDC00D8A845 /* nothing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
