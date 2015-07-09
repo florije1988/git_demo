@@ -9,7 +9,10 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    @IBOutlet weak var demoLabel: UILabel!
+    @IBOutlet weak var demoText: UITextField!
+    @IBOutlet weak var demoBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -21,5 +24,8 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func btnAction(sender: AnyObject) {
+        demoLabel.text = "Hello \(demoText.text)"
+    }
 }
 
